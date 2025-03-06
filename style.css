@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: .1px;
+}
+#nav{
+    height: 8vh;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    overflow: hidden;
+    height: 100%;
+    width: 16%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 5%;
+}
+#logo img{
+    height: 250%;
+    width: 100%;
+}
+#logo sup{
+    height: 65%;
+    width: 15%;
+    font-size: 1.1vw;
+    font-weight: 700;
+    display: flex;
+    align-items: start;
+    justify-items: start;
+}
+#nav h2{
+    height: 100%;
+    width: 17%;
+    font-size: 2.5vh;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #000;
+}
+#nav h2:nth-last-child(2){
+    width: 29%;
+}
+#nav h2:nth-last-child(1){
+    width: 10%;
+}
+#center{
+    height: 90%;
+    width: 100%;
+    padding: 3vw;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: -5%;
+    padding: 0vw 4vw;
+}
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 0vw;
+    color: #fff;
+}
+#over1 h1{
+    font-size: 3vw;
+    font-weight: 800;
+    line-height: 3vw;
+}
+#over1 h2{
+    font-size: .9vw;
+    font-weight: 100;
+    border: .1vw solid #fff;
+    border-radius: 50%;
+    padding: 1.3vw;
+}
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 0vw;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+#over2 h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+#over2 img{
+    height: 3vw;
+    font-size: 1vw;
+}
