@@ -848,6 +848,10 @@ footer {
         color: #000;
     }
 
+    #alpha span:hover h6{
+        border: none;
+    }
+
     #alpha h6:hover {
         border: none;
         color: #929191;
