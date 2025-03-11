@@ -889,7 +889,7 @@ footer {
     .right-content p {
         font-size: 3.4vw;
         line-height: 4vw;
-        color: rgb(63, 63, 63);
+        color: rgb(29, 29, 29);
     }
 
     /* Grid1 Section */
@@ -994,7 +994,7 @@ footer {
         font-weight: 100;
         font-size: 3.4vw;
         line-height: 4vw;
-        color: rgb(63, 63, 63);
+        color:rgb(29, 29, 29);
     }
 
     #right-bottom {
@@ -1044,7 +1044,7 @@ footer {
         font-weight: 100;
         font-size: 3.4vw;
         line-height: 4vw;
-        color: rgb(63, 63, 63);
+        color: rgb(29, 29, 29);
     }
     
     /* Marque Section*/
@@ -1080,7 +1080,7 @@ footer {
     }
     
     .blog-content span {
-        border: 1px solid rgb(66, 66, 66);
+        border: 1px solid rgb(29, 29, 29);
         border-radius: 50%;
         padding: .4vw 1.4vw;
     }
@@ -1089,7 +1089,7 @@ footer {
         font-weight: 100;
         font-size: 4vw;
         line-height: 5vw;
-        color: rgb(63, 63, 63);
+        color: rgb(29, 29, 29);
     }
     
     .blog img {
