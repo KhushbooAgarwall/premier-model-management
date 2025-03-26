@@ -1020,6 +1020,9 @@ footer {
     #grid1 {
         padding: 2vw 8vw;
     }      
+    #image-circle{
+        display: none;
+    }
     #image-arrow {
         height: 5vw;
         width: 6vw;
@@ -1244,7 +1247,6 @@ footer {
     #image-circle {
         height: 35%;
         width: 85%;
-        display: none;
     }    
 
     #image-arrow {
