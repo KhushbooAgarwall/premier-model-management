@@ -1247,6 +1247,7 @@ footer {
     #image-circle {
         height: 35%;
         width: 85%;
+        display: block;
     }    
 
     #image-arrow {
