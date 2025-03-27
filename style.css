@@ -731,176 +731,192 @@ footer {
 
 /* -----------Responsive---------- */
 
-@media (max-width:1199px) {
+@media (max-width:360px) {
 
-    /* Heading class */
+    /* Heading class */   
     .heading h2 {
-        font-size: 4vh;
+        font-size: 3vh;
     }  
 
-    /* Image Content */    
-    .img-content h6 {
-        padding: .5vw .6vw;
-    }
-    
     /* Navigation bar */
     #nav img {
-        width: 12%;
+        /* height: 200%; */
+        width: 18%;
     }
-    
-    #nav sup {
-        top: 6%;
-        left: 17%;
+    /* Center video */
+    #center {
+        height: 48%;
     }
 
-    /* Center video */  
     #overlay {
-        bottom: -10%;
+        height: 45%;
+    }
+
+    /* Scroll Section */
+    #scroll {
+        height: 18vh;
+        margin: 4vw 0 6vw 0;
+    }
+
+    #container {
+        width: 220%;
+        animation-duration: 22s;
+    }
+
+    #scroll img {
+        height: 35%;
+        width: 9%;
+    }
+
+    /* Alpha Section */
+    #alpha h5 {
+        font-size: 2.5vw;
+    }
+
+    #alpha h6 {
+        font-size: 2.3vw;
+        letter-spacing: .4vw;
+    }
+
+    /* Grid Section */   
+     #grid {
+        height: fit-content;
+        padding: 5vw 6vw;
+        margin: 3vw 0 5vw 0;
+    }
+    .grid-right img {
+        height: 95vw;
+    }
+
+    .right-content {
+        padding: 1vw;
+    }
+
+    .right-content h4 {
+        font-size: 3.6vw;
+        line-height: 5vw;
     }
     
-    #over1 {
-        padding: 2vw 1vw;
+    .right-content p {
+        font-size: 3vw;
+    }
+
+    /* Grid1 Section */
+    #grid1 {
+        padding: 10vw 6vw;
     }
     
-    #over1 h1 {
+    #grid1-left p {
+        font-size: 3.5vw;
+    }
+    
+    /* Table Section */
+    #table {
+        padding: 8vw 6vw;
+    }
+    
+    .row {
+        height: 18vw;
+    }
+    
+    .row h4 {
         font-size: 2.5vw;
     }
     
-    #over1 h2 {
-        font-size: 1vw;
-        padding: 1.2vw;
-    }
-    
-    #over2 {
-        padding: 1vw 1vw;
-    }
-    
-    /* Scroll Section */
-    #scroll {
-        padding: 2vw;
-    }
-    
-    #scroll img {
-        height: 90%;
-    }
-    
-    /* Alpha Section */  
-    #alpha h6 {
-        font-size: .9vw;
-    }
-    
-    /* Grid Section */    
-    .right-content {
-        padding-top: 3vw;
+    .row img {
+        height: 15vw;
+        width: 15vw;
     }
 
-    .right-content p {
-        line-height: 1.2vw;
+    .row .name-date {
+        width: 45%;
     }
 
-    /* Grid1 Section */      
-    #image-arrow {
-        height: 4vw;
-        width: 4vw;
-        bottom: 27vw;
-    }
-
-    #grid1-left p {
-        font-size: 1vw;
-        font-weight: 600;
-    }
- 
-    /* Table Section */    
-    .row h4 {
-        font-size: 1vw;
+    .name-date h1 {
+        font-size: 3.6vw;
     }
     
     .name-date h5 {
-        font-size: .8vw;
-        padding-top: .4vw;
+        font-size: 2.2vw;
+        padding-top: 1vw;
     }
-    
+
     /* Grid2 Section */
-    #grid2-left {
-        background-position: center;
+    #grid2 {
+        padding: 2vw 6vw;
     }
 
     #right-top h2 {
-        font-size: 4vh;
+        font-size: 3.5vh;
+    }
+    
+    #right-top h4 {
+        font-size: 3.6vw;
+    }
+    
+    #right-top p {
+        font-size: 3vw;
     }
 
-    #right-top p {
-        font-size: 1vw;
-        line-height: 1.4vw;
+    /* Grid3 Section */
+    #grid3 {
+        height: fit-content;
+        padding: 2vw 6vw;
     }
-    
-     /* Grid3 Section */
-    #right-content {
-        padding-top: 2.5vw;
+
+    #grid3-right img {
+        height: 95vw;
     }
-    
+
     #right-content h4 {
-        line-height: 1.7vw;
+        font-size: 3.6vw;
     }
     
     #right-content p {
-        font-size: 1vw;
-        line-height: 1.3vw;
-    }    
-
-    /* Grid4 Section */
-    .blog-content span {
-        padding: .2vw .5vw;
+        font-size: 3vw;
     }
     
+    /* Marque Section*/
+
+    #marque {
+        margin-top: 8vw;
+        margin-bottom: 15vw;
+    }
+    
+    #marque h1 {
+        font-size: 6vw;
+    }
+
     .blog-content p {
-        font-size: 1.1vw;
+        font-size: 3vw;
     }
-
+    
+    /* Footer Section */
+    #foot {
+        height: 50%;
+        margin-top: 4vw;
+        flex-direction: column;
+    }
+    
     #foot img {
-        height: 80%;
+        height: 50%;
+        width: 24%;
     }
     
-    #foot sup {
-        height: 78%;
-        font-weight: 990;
-    }
-    
-    #block-top {
-        height: 35%;
-        width: 100%;
+    #foot h2 {
+        font-size: 3.6vw;
     }
     
     #block-top h3 {
-        height: 100%;
-        width: 100%;
-        font-size: 2.5vh;
-        font-weight: 550;
-        border-bottom: 2px solid #000;
-        padding: 1vw 0 0 3vw;
-    
+        font-size: 3.6vw;
     }
-    
-    #block-bottom {
-        height: 65%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: space-evenly;
-        padding: .1vw 0 0 3vw;
-    }
-    
-    #icons {
-        width: 100%;
-    }
-    
+
     #icons i {
-        font-size: 1.6vw;
+        font-size: 4vw;
     }
     
     #block-bottom h6 {
-        font-size: 1vw;
+        font-size: 2.8vw;
     }
 }
 
@@ -1337,191 +1353,176 @@ footer {
     }
 }
 
-@media (max-width:360px) {
+@media (max-width:1199px) {
 
-    /* Heading class */   
+    /* Heading class */
     .heading h2 {
-        font-size: 3.5vh;
+        font-size: 4vh;
     }  
 
+    /* Image Content */    
+    .img-content h6 {
+        padding: .5vw .6vw;
+    }
+    
     /* Navigation bar */
     #nav img {
-        /* height: 200%; */
-        width: 16%;
+        width: 12%;
     }
-    /* Center video */
-    #center {
-        height: 48%;
+    
+    #nav sup {
+        top: 6%;
+        left: 17%;
     }
 
+    /* Center video */  
     #overlay {
-        height: 45%;
+        bottom: -10%;
     }
-
+    
+    #over1 {
+        padding: 2vw 1vw;
+    }
+    
+    #over1 h1 {
+        font-size: 2.5vw;
+    }
+    
+    #over1 h2 {
+        font-size: 1vw;
+        padding: 1.2vw;
+    }
+    
+    #over2 {
+        padding: 1vw 1vw;
+    }
+    
     /* Scroll Section */
     #scroll {
-        height: 18vh;
-        margin: 4vw 0 6vw 0;
+        padding: 2vw;
     }
-
-    #container {
-        width: 220%;
-        animation-duration: 22s;
-    }
-
+    
     #scroll img {
-        height: 35%;
-        width: 9%;
+        height: 90%;
     }
-
-    /* Alpha Section */
-    #alpha h5 {
-        font-size: 2.5vw;
-    }
-
+    
+    /* Alpha Section */  
     #alpha h6 {
-        font-size: 2.3vw;
-        letter-spacing: .4vw;
+        font-size: .9vw;
     }
-
-    /* Grid Section */   
-     #grid {
-        height: fit-content;
-        padding: 5vw 6vw;
-        margin: 3vw 0 5vw 0;
-    }
-    .grid-right img {
-        height: 95vw;
-    }
-
+    
+    /* Grid Section */    
     .right-content {
-        padding: 1vw;
+        padding-top: 3vw;
     }
 
-    .right-content h4 {
-        font-size: 3.6vw;
-        line-height: 5vw;
-    }
-    
     .right-content p {
-        font-size: 3vw;
+        line-height: 1.2vw;
     }
 
-    /* Grid1 Section */
-    #grid1 {
-        padding: 10vw 6vw;
+    /* Grid1 Section */      
+    #image-arrow {
+        height: 4vw;
+        width: 4vw;
+        bottom: 27vw;
     }
-    
+
     #grid1-left p {
-        font-size: 3.5vw;
+        font-size: 1vw;
+        font-weight: 600;
     }
-    
-    /* Table Section */
-    #table {
-        padding: 8vw 6vw;
-    }
-    
-    .row {
-        height: 18vw;
-    }
-    
+ 
+    /* Table Section */    
     .row h4 {
-        font-size: 2.5vw;
-    }
-    
-    .row img {
-        height: 15vw;
-        width: 15vw;
-    }
-
-    .row .name-date {
-        width: 45%;
-    }
-
-    .name-date h1 {
-        font-size: 3.6vw;
+        font-size: 1vw;
     }
     
     .name-date h5 {
-        font-size: 2.2vw;
-        padding-top: 1vw;
+        font-size: .8vw;
+        padding-top: .4vw;
     }
-
+    
     /* Grid2 Section */
-    #grid2 {
-        padding: 2vw 6vw;
+    #grid2-left {
+        background-position: center;
     }
 
     #right-top h2 {
-        font-size: 3.5vh;
+        font-size: 4vh;
     }
-    
-    #right-top h4 {
-        font-size: 3.6vw;
-    }
-    
+
     #right-top p {
-        font-size: 3vw;
+        font-size: 1vw;
+        line-height: 1.4vw;
     }
-
-    /* Grid3 Section */
-    #grid3 {
-        height: fit-content;
-        padding: 2vw 6vw;
+    
+     /* Grid3 Section */
+    #right-content {
+        padding-top: 2.5vw;
     }
-
-    #grid3-right img {
-        height: 95vw;
-    }
-
+    
     #right-content h4 {
-        font-size: 3.6vw;
+        line-height: 1.7vw;
     }
     
     #right-content p {
-        font-size: 3vw;
+        font-size: 1vw;
+        line-height: 1.3vw;
+    }    
+
+    /* Grid4 Section */
+    .blog-content span {
+        padding: .2vw .5vw;
     }
     
-    /* Marque Section*/
-
-    #marque {
-        margin-top: 8vw;
-        margin-bottom: 15vw;
-    }
-    
-    #marque h1 {
-        font-size: 6vw;
-    }
-
     .blog-content p {
-        font-size: 3vw;
+        font-size: 1.1vw;
     }
-    
-    /* Footer Section */
-    #foot {
-        height: 50%;
-        margin-top: 4vw;
-        flex-direction: column;
-    }
-    
+
     #foot img {
-        height: 50%;
-        width: 24%;
+        height: 80%;
     }
     
-    #foot h2 {
-        font-size: 3.6vw;
+    #foot sup {
+        height: 78%;
+        font-weight: 990;
+    }
+    
+    #block-top {
+        height: 35%;
+        width: 100%;
     }
     
     #block-top h3 {
-        font-size: 3.6vw;
+        height: 100%;
+        width: 100%;
+        font-size: 2.5vh;
+        font-weight: 550;
+        border-bottom: 2px solid #000;
+        padding: 1vw 0 0 3vw;
+    
     }
-
+    
+    #block-bottom {
+        height: 65%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        padding: .1vw 0 0 3vw;
+    }
+    
+    #icons {
+        width: 100%;
+    }
+    
     #icons i {
-        font-size: 4vw;
+        font-size: 1.6vw;
     }
     
     #block-bottom h6 {
-        font-size: 2.8vw;
+        font-size: 1vw;
     }
 }
+
