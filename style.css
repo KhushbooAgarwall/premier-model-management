@@ -150,7 +150,7 @@ body {
 #scroll {
     height: 30vh;
     width: 100%;
-    padding: 1vw;
+    padding: 2vw;
     white-space: nowrap;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -159,7 +159,7 @@ body {
 .container {
     height: 23vh;
     width: 100%;
-    display: inline-block;
+    display: inline-flex;
     animation-name: anime;
     animation-duration: 23s;
     animation-iteration-count: infinite;
@@ -167,9 +167,9 @@ body {
 }
 
 #scroll img {
-    height: 95%;
+    height: 90%;
     border-radius: 50%;
-    width: 9%;
+    width: 9vw;
     margin-right: .7vw;
     object-fit: cover;
 }
@@ -290,12 +290,12 @@ body {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    padding-top: 10%;
 }
 
 #image-circle {
-    height: 40%;
+    height: 50%;
     width: 100%;
-    margin-top: 50%;
     border-radius: 50%;
     animation-name: rotate;
     animation-duration: 20s;
@@ -318,7 +318,7 @@ body {
     width: 4vw;
     position: absolute;
     left: 7vw;
-    bottom: 23vw;
+    bottom: 25vw;
 }
 
 #left-content {
@@ -570,7 +570,7 @@ body {
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    -webkit-text-stroke: .8px #000;
+    -webkit-text-stroke: 1.5px #000;
     letter-spacing: .2vw;
     color: transparent;
     margin-right: 16px;
@@ -722,6 +722,7 @@ footer {
 
 #icons i {
     margin-right: 1vw;
+    font-size: 1.5vw;
     color: #353535;
 }
 
@@ -730,8 +731,7 @@ footer {
 }
 
 /* -----------Responsive---------- */
-
-@media (max-width:1200px) {
+@media (max-width:1280px) {
 
     /* Heading class */
     .heading h2 {
@@ -776,12 +776,19 @@ footer {
     }
     
     /* Scroll Section */
-    #scroll {
-        padding: 2vw;
+
+      #scroll {
+        padding: 3vw;
     }
-    
+
+    .container {
+        height: 23vh;
+        width: 180%;
+    }
+
     #scroll img {
-        height: 90%;
+        width: 8.9%;
+        margin-right: 1vw;
     }
     
     /* Alpha Section */  
@@ -798,18 +805,25 @@ footer {
         line-height: 1.2vw;
     }
 
-    /* Grid1 Section */      
+    /* Grid1 Section */ 
+    
+    #grid1 {
+        padding: 2vw 15vw;
+    }      
     #image-arrow {
-        height: 4vw;
-        width: 4vw;
-        bottom: 27vw;
+        height: 5vw;
+        width: 5vw;
+        left: 8vw;
+        bottom: 28vw;
+    }
+  
+    #grid1-left p {
+        font-size: 1.4vw;
+        font-weight: 600;
+        line-height: 2vw;
+        padding-left: 3vw;
     }
 
-    #grid1-left p {
-        font-size: 1vw;
-        font-weight: 600;
-    }
- 
     /* Table Section */    
     .row h4 {
         font-size: 1vw;
@@ -846,7 +860,12 @@ footer {
     #right-content p {
         font-size: 1vw;
         line-height: 1.3vw;
-    }    
+    } 
+
+    /* Marque */
+    #marque h1 {
+        -webkit-text-stroke: 1px #000;
+    }
 
     /* Grid4 Section */
     .blog-content span {
@@ -903,7 +922,8 @@ footer {
         font-size: 1vw;
     }
 }
-@media (max-width:992px) {
+
+@media (max-width:1024px) {
 
     /* Heading class */
     .heading h2 {
@@ -974,18 +994,19 @@ footer {
     }
     
     /* Scroll Section */
+
     #scroll {
         padding: 3vw;
     }
-    
-    #container {
+
+    .container {
         height: 20vh;
-        width: 80%;
+        width: 180%;
     }
-    
+
     #scroll img {
-        width: 15%;
-        margin-right: .9vw;
+        width: 9%;
+        margin-right: 1vw;
     }
     
     /* Alpha Section */  
@@ -1110,7 +1131,7 @@ footer {
     
     /* Marque Section*/
     #marque h1 {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     
     /* Grid4 Section */
@@ -1173,7 +1194,7 @@ footer {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:640px) {
 
     /* Heading class */
     .heading {
@@ -1251,17 +1272,22 @@ footer {
     }
 
     /* Scroll Section */
-    #scroll {
-        height: 20vh;
-    }
 
-    #container {
-        height: 40vh;
+    
+    #scroll {
+        padding: 3vw;
+        height: 25vh;
+    }
+    
+    .container {
+        /* height: 20vh; */
         width: 185%;
     }
 
     #scroll img {
-        height: 40%;
+        height: 20vh;
+        width: 9%;
+        margin-right: 1vw;
     }
 
     /* Alpha Section */
@@ -1486,12 +1512,14 @@ footer {
     /* Marque Section*/
 
     #marque {
-        margin-top: 8vw;
+        margin-top: 5vw;
         margin-bottom: 15vw;
+        padding: 2vw 0vw;
     }
     
     #marque h1 {
-        font-size: 4.5vw;
+        -webkit-text-stroke: 1px #000;
+        font-size: 5vw;
     }
     
     /* Grid4 Section */
@@ -1605,3 +1633,231 @@ footer {
         font-size: 2.5vw;
     }
 }
+
+
+/* @media (width < 30rem) */
+@media (max-width:480px){
+
+    /* Heading class */   
+    .heading h2 {
+        font-size: 4vh;
+    }  
+
+    /* Navigation bar */
+    #nav img {
+        height: 250%;
+        width: 18%;
+    }
+    /* Center video */
+    #center {
+        height: 55%;
+        margin: 3vw 0 0 0;
+    }
+
+    #overlay {
+        height: 49%;
+    }
+
+    #over1 h1 {
+        font-size: 3.9vw;
+        line-height: 5vw;
+    }
+
+    #over1 h2 {
+        font-size: 1.9vw;
+        padding: 2vw;
+    }
+
+    #over2 h4 {
+        font-size: 2.5vw;
+    }
+
+    #over2 img {
+        height: 6vw;
+    }
+
+    /* Scroll Section */
+
+
+    #scroll {
+        height: 20vh;
+    }
+
+    #container {
+        height: 90vh;
+        width: 185%;
+    }
+
+    #scroll img {
+        height: 90%;
+        width: 16.5vw;
+    }
+
+    /* #scroll {
+        height: 20vh;
+        margin: 4vw 0 6vw 0;
+    } */
+
+    /* Alpha Section */
+    #alpha h5 {
+        font-size: 2.5vw;
+    }
+
+    #alpha h6 {
+        font-size: 2vw;
+    }
+
+    /* Grid Section */
+    #grid {
+        padding: 5vw 10vw;
+    }
+    
+    .right-content {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .right-content h4 {
+        font-size: 3.5vw;
+    }
+    
+    .right-content p {
+        font-size: 2.8vw;
+        line-height: 4vw;
+        color: rgb(29, 29, 29);
+    }
+
+    /* Grid1 Section */
+    #grid1 {
+        padding: 8vw 10vw;
+    }
+    
+    #grid1-left p {
+        font-size: 2.5vw;
+    }
+    
+    /* Table Section */
+    #table {
+        padding: 8vw 10vw;
+    }
+    
+    .row {
+        height: 15vw;
+    }
+    
+    .row h4 {
+        font-size: 2.2vw;
+    }
+    
+    .row img {
+        height: 13vw;
+        width: 13vw;
+    }
+
+    .name-date h1 {
+        font-size: 3.5vw;
+    }
+    
+    .name-date h5 {
+        font-size: 1.9vw;
+    }
+
+    /* Grid2 Section */
+    #grid2 {
+        padding: 2vw 10vw;
+    }
+
+    #right-top h2 {
+        font-size: 4vh;
+    }
+    
+    #right-top h4 {
+        font-size: 3.5vw;
+    }
+    
+    #right-top p {
+        font-size: 2.8vw;
+    }
+
+    #right-bottom {
+        padding: 1.5vw;
+    }
+    
+    /* Grid3 Section */
+    #grid3 {
+        padding: 2vw 10vw;
+        margin-top: 10vw;
+    }
+        
+    #right-content {
+        flex-direction: column;
+    }
+
+    #right-content h4 {
+        font-size: 3.5vw;
+        line-height: 4.5vw;
+    }
+    
+    #right-content p {
+        font-size: 2.8vw;
+        line-height: 4vw;
+    }
+    
+    /* Marque Section*/
+
+    #marque {
+        margin-top: 8vw;
+        margin-bottom: 15vw;
+    }
+    
+    #marque h1 {
+        font-size: 5vw;
+    }
+    
+    /* Grid4 Section */
+    .blog-content {
+        margin-bottom: 3vw; 
+    }
+    
+    .blog-content span {
+        padding: .4vw 1vw;
+    }
+    
+    .blog-content p {
+        font-size: 2.8vw;
+    }
+    
+    /* Footer Section */
+    #foot {
+        height: 70%;
+        margin-top: 4vw;
+        flex-direction: column;
+    }
+    
+    #foot img {
+        height: 50%;
+        width: 22%;
+    }
+    
+    #foot h2 {
+        font-size: 3.5vw;
+    }
+    
+    #block-top h3 {
+        font-size: 3.5vw;
+    }
+    
+    #block-bottom {
+        padding: 4vw 0 4vw 0;
+    }
+
+    #icons i {
+        margin-right: 4vw;
+        font-size: 3.9vw;
+    }
+    
+    #block-bottom h6 {
+        font-size: 2.5vw;
+    }
+}
+
